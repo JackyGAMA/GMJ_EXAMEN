@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Examen</title>
+</head>
+<link rel="stylesheet" href="estilopw.css">
+<body>
+    <h1>Pagina del Examen</h1>
+    <nav>
+        <ul>
+            <li><a href="#lista">Listas</a></li>
+            <li><a href="#tabla">Tablas</a></li>
+            <li><a href="#imagen">Imágenes</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+            
+
+        </ul>
+        <nav>
+    <section id="lista">
+        <h2>Ejemplo de Listas</h2>
+
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Elemento Uno</li>
+            <li>Elemento Dos</li>
+            <li>Elemento Tres</li>
+        </ol>
+       
+        <h3>Lista No Ordenada</h3>
+        <ol>
+            <li>Elemento A</li>
+            <li>Elemento B</li>
+            <li>Elemento C</li>
+        </ol>
+    </section>
+    <section id="tabla">
+        <h2>Ejemplo de Tabla</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>25</td>
+                <td>México</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>30</td>
+                <td>España</td>
+            </tr>
+        </table>
+    </section>
+    <section id="imagen">
+        <h2>Ejemplo de Imagen</h2>
+        <img src=https://www.aragon.unam.mx/fes-aragon/public_html/img/logos/logosunamfes.jpg alt="Ejemplo de Imagen">
+    </section>
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="submit.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Derechos Reservados</p>
+    </footer>
+</body>
+</html>
